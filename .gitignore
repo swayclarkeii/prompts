@@ -1,0 +1,46 @@
+# ==========================
+# PROMPTS REPO .gitignore
+# ==========================
+
+# === OS / System Files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# === Editors / IDEs ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === Python / Environments ===
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Logs / Temp ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.lock
+
+# === Outputs / Generated ===
+outputs/
+!outputs/.gitkeep     # keep folder structure visible
+
+# === Archives / Exports ===
+*.zip
+*.tar
+*.gz
+
+# === Environment / Config ===
+.env
+*.env
+
+# === Misc ===
+# (Add any local scratch folders or notebooks you don’t want tracked)
+scratch/
